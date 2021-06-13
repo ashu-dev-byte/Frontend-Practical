@@ -1,0 +1,101 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.navbar {
+height: 50px;
+background-image: linear-gradient(to right, #53b0f4, #5cd361);
+color: white;
+}
+.left {
+float: left;
+position: absolute;
+font-size: 25px;
+top: 8px;
+left: 35px;
+}
+.right {
+float: right;
+}
+ul li {
+display: inline-block;
+list-style-type: none;
+padding: 0.9rem;
+height: 50px;
+}
+li:hover {
+cursor: pointer;
+background: orange;
+border-radius: 1px;
+color: black;
+}
+.mid {
+width: 98.9vw;
+height: 82vh;
+background: linear-gradient(rgba(97, 111, 101,0.8), rgba(49, 65, 54, 0.8)), url("office.jpg");
+background-size: cover;
+color: white;
+}
+h1 {
+font-family: sans-serif;
+font-weight: bolder;
+font-size: 60px;
+position: absolute;
+left: 32rem;
+top: 17rem;
+opacity: 1;
+}
+h4 {
+position: absolute;
+font-size: 21px;
+left: 37rem;
+top: 21rem;
+opacity: 1;
+}
+.endiv {
+position: absolute;
+left: 6rem;
+top: 39rem;
+width: 85vw;
+height: 1rem;
+background-image: linear-gradient(to right, #53b0f4, #5cd361);
+padding: 50px;
+}
+.elem {
+position: relative;
+border-style: none;
+height: 25px;
+width: 200px;
+margin: 5px;
+left: 12.7rem;
+top: -20px;
+}
+button {
+position: relative;
+padding: 0px;
+margin: 0px;
+height: 25px;
+width: 120px;
+left: 12.9rem;
+top: -20px;
+color: white;
+background-color: dodgerblue;
+border: none;
+}
+button:hover {
+cursor: pointer;
+color: black;
+height: 28px;
+}
+.footer {
+margin-top: 8rem;
+width: 98.9vw;
+height: 15vh;
+background-color: black;
+color: white;
+}
+i {
+position: relative;
+top: 28px;
+}
